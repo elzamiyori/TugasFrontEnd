@@ -8,6 +8,72 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1793003290,
+        "Kind": "Components.Component",
+        "Name": "Latihan.Pages.Counter",
+        "AssemblyName": "Latihan",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Latihan.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1087819030,
+        "Kind": "Components.Component",
+        "Name": "Latihan.Pages.Counter",
+        "AssemblyName": "Latihan",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Latihan.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Latihan.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1189078422,
+        "Kind": "Components.Component",
+        "Name": "Latihan.Pages.EmployeePage",
+        "AssemblyName": "Latihan",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeePage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Latihan.Pages.EmployeePage"
+        }
+      },
+      {
+        "HashCode": -207499553,
+        "Kind": "Components.Component",
+        "Name": "Latihan.Pages.EmployeePage",
+        "AssemblyName": "Latihan",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Latihan.Pages.EmployeePage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Latihan.Pages.EmployeePage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1015415382,
         "Kind": "Components.Component",
         "Name": "Latihan.Pages.FetchData",
@@ -74,68 +140,88 @@
         }
       },
       {
-        "HashCode": 1793003290,
+        "HashCode": 1225778928,
         "Kind": "Components.Component",
-        "Name": "Latihan.Pages.Counter",
+        "Name": "Latihan.App",
         "AssemblyName": "Latihan",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Pages.Counter"
+          "Common.TypeName": "Latihan.App"
         }
       },
       {
-        "HashCode": -1087819030,
+        "HashCode": -1082240506,
         "Kind": "Components.Component",
-        "Name": "Latihan.Pages.Counter",
+        "Name": "Latihan.App",
         "AssemblyName": "Latihan",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Latihan.Pages.Counter"
+            "TagName": "Latihan.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Pages.Counter",
+          "Common.TypeName": "Latihan.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1189078422,
+        "HashCode": -891983735,
         "Kind": "Components.Component",
-        "Name": "Latihan.Pages.EmployeePage",
+        "Name": "Latihan.Shared.SurveyPrompt",
         "AssemblyName": "Latihan",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeePage"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Pages.EmployeePage"
+          "Common.TypeName": "Latihan.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -207499553,
+        "HashCode": 46787519,
         "Kind": "Components.Component",
-        "Name": "Latihan.Pages.EmployeePage",
+        "Name": "Latihan.Shared.SurveyPrompt",
         "AssemblyName": "Latihan",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Latihan.Pages.EmployeePage"
+            "TagName": "Latihan.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Pages.EmployeePage",
+          "Common.TypeName": "Latihan.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -236,59 +322,6 @@
         }
       },
       {
-        "HashCode": -891983735,
-        "Kind": "Components.Component",
-        "Name": "Latihan.Shared.SurveyPrompt",
-        "AssemblyName": "Latihan",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 46787519,
-        "Kind": "Components.Component",
-        "Name": "Latihan.Shared.SurveyPrompt",
-        "AssemblyName": "Latihan",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Latihan.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -593658462,
         "Kind": "Components.Component",
         "Name": "Latihan.Shared.NavMenu",
@@ -318,39 +351,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Latihan.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1225778928,
-        "Kind": "Components.Component",
-        "Name": "Latihan.App",
-        "AssemblyName": "Latihan",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.App"
-        }
-      },
-      {
-        "HashCode": -1082240506,
-        "Kind": "Components.Component",
-        "Name": "Latihan.App",
-        "AssemblyName": "Latihan",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Latihan.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Latihan.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
