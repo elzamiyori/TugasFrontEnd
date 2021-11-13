@@ -1,0 +1,21 @@
+@page "/employeepage"
+
+<h3>Selected Employee Count @SelectedEmployeesCount</h3>
+
+<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+<label for="showFooter">Show Footer</label>
+
+@if (Employees == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    
+    <div class="card-deck">
+        @foreach (var emp in Employees)
+        {
+            <DisplayEmployee Employee="emp" ShowFooter="ShowFooter" OnEmployeeSelection="EmployeeSelectionChanged" />
+        }
+    </div>
+}
