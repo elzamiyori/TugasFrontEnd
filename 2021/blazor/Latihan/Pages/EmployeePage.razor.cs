@@ -35,7 +35,7 @@ namespace Latihan.Pages
                 DateofBirth = new DateTime(1995,2,7),
                 Gender = Gender.Female,
                 Department = new Department{DepartmentID=2, DepartmentName="IT"},
-                PhotoPath = "images/Shely.jpg"
+                PhotoPath = "images/Shely.png"
             };
 
             Employee e3 = new Employee{
@@ -46,7 +46,7 @@ namespace Latihan.Pages
                 DateofBirth = new DateTime(1997,5,1),
                 Gender = Gender.Male,
                 Department = new Department{DepartmentID=2, DepartmentName="IT"},
-                PhotoPath = "images/reksi.jpg"
+                PhotoPath = "images/reksi.png"
             };
 
             Employees = new List<Employee>{e1,e2,e3};
